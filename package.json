@@ -1,0 +1,45 @@
+{
+  "name": "@huize/react-template-cli",
+  "version": "0.0.1",
+  "description": "@huize/react-template-cli 脚手架 慧泽智数cli创建项目模版",
+  "bin": {
+    "huize-cli": "./src/index.js"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npx ts-node ./src/index.ts create",
+    "build": "tsc --build",
+    "prepublishOnly": "npm run build"
+  },
+  "author": {
+    "name": "兰涛",
+    "email": "550947002@qq.com"
+  },
+  "publishConfig": {
+
+  },
+  "files": [
+    "src"
+  ],
+  "engines": {
+    "node": ">=8.9"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@inquirer/prompts": "^2.2.0",
+    "chalk": "^2.4.2",
+    "commander": "^8.3.0",
+    "execa": "^2.0.4",
+    "fs-extra": "^10.0.0",
+    "glob": "^10.3.1",
+    "path": "^0.12.7",
+    "prettier": "^2.8.8"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.1",
+    "@types/prettier": "^2.7.3",
+    "ts-loader": "^9.4.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
