@@ -1,3 +1,4 @@
+https://juejin.cn/post/7251391372394250299
 # 使用
 
 ## 设置全局 npm
@@ -27,4 +28,4 @@
 
 # 调试与发布
 
-`pnpm i` `npm run test` `npm publish --registry `
+`pnpm i` `npm run test` `npm publish`
