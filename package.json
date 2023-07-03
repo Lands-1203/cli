@@ -1,7 +1,7 @@
 {
-  "name": "@huize/react-template-cli",
+  "name": "@huize/cli",
   "version": "0.0.1",
-  "description": "@huize/react-template-cli 脚手架 慧泽智数cli创建项目模版",
+  "description": "@huize/cli 脚手架 慧泽智数cli创建项目模版",
   "bin": {
     "huize-cli": "./src/index.js"
   },

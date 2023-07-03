@@ -7,7 +7,7 @@ https://juejin.cn/post/7251391372394250299
 
 ## 全局安装 cli
 
-`npm install @huize/react-template-cli -g`
+`npm install @huize/cli -g`
 
 ## 使用命令创建项目
 
